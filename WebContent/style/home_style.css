@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+    
+    label{
+    	text-shadow: 2px 2px 2px #FF00FF;
+    	color:white;    
+    }
+     
+}
+
+
+@media screen and (min-width: 580px) {
+    body {
+        background-color: #8080ff;
+    }
+    
+    label{
+    	text-shadow: 2px 2px 2px orange;
+    	color:purple;    
+    }
+}
+
+#edades_view, #fisico_view, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#edades_view, #fisico_view, #buscarButtonDiv {
+    padding: 50px;
+    display: none;
+}
+
+.sexo{
+	padding: 5px;
+    text-align: center;
+    background-color: #8080ff;    
+}
